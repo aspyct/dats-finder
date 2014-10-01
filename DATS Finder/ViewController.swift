@@ -7,19 +7,37 @@
 //
 
 import UIKit
+import CoreLocation
+import MapKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var mapView: MKMapView!
+    @IBOutlet weak var fuelTypeBox: UIView!
+    
+    let locationManager = CLLocationManager()
+    let stationProvider = StationProvider()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        for station in stationProvider.listAllStations() {
+            let pin = MKPointAnnotation()
+            pin.coordinate = CLLocationCoordinate2D(latitude: station.longitude, longitude: station.latitude)
+            pin.title = station.name
+            mapView.addAnnotation(pin)
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        fuelTypeBox.hidden = true
     }
-
-
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        locationManager.requestWhenInUseAuthorization()
+    }
 }
 
