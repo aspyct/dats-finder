@@ -14,20 +14,9 @@ class StationProvider {
             let data = NSData.dataWithContentsOfURL(fileUrl, options: nil, error: nil) as NSData
             let jsonArray = NSJSONSerialization.JSONObjectWithData(data, options: nil, error: nil) as [[String: AnyObject]]
             
-            let allNames = map(jsonArray, { (var jsonObject : [String: AnyObject]) -> String in
-                if let name: AnyObject = jsonObject["name"] {
-                    if let stringName = name as? String {
-                        return stringName
-                    }
-                }
+            let allFuelStations = map(jsonArray, { (let jsonObject : [String: AnyObject]) -> FuelStation in
+                var fuelStation = FuelStation()
                 
-                return "No name"
-            })
-            
-            let allFuelStations = map(jsonArray, { (var jsonObject : [String: AnyObject]) -> FuelStation in
-                let fuelStation = FuelStation()
-                
-                /*
                 if let name: AnyObject = jsonObject["name"] {
                     if let stringName = name as? String {
                         fuelStation.name = stringName
@@ -36,7 +25,6 @@ class StationProvider {
                 
                 fuelStation.longitude = (jsonObject["longitude"] as NSNumber).doubleValue
                 fuelStation.latitude = (jsonObject["latitude"] as NSNumber).doubleValue
-*/
 
                 return fuelStation
             })

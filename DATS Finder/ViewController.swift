@@ -21,8 +21,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         for station in stationProvider.listAllStations() {
+            println(station)
+            
             let pin = MKPointAnnotation()
-            pin.coordinate = CLLocationCoordinate2D(latitude: station.longitude, longitude: station.latitude)
+            pin.coordinate = CLLocationCoordinate2D(latitude: station.latitude, longitude: station.longitude)
             pin.title = station.name
             mapView.addAnnotation(pin)
         }

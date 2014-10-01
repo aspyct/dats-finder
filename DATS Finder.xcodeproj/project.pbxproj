@@ -16,7 +16,7 @@
 		71110B4619DB4CE4009DD217 /* stations.json in Resources */ = {isa = PBXBuildFile; fileRef = 71110B4419DB4CE4009DD217 /* stations.json */; };
 		71110B4719DB4CE4009DD217 /* TemplateIcon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71110B4519DB4CE4009DD217 /* TemplateIcon2x.png */; };
 		71110B4919DB4DF5009DD217 /* StationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71110B4819DB4DF5009DD217 /* StationProvider.swift */; };
-		71110B4B19DB5156009DD217 /* FuelStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71110B4A19DB5156009DD217 /* FuelStation.swift */; };
+		71110B4E19DC873D009DD217 /* FuelStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71110B4D19DC873D009DD217 /* FuelStation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,8 @@
 		71110B4419DB4CE4009DD217 /* stations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stations.json; sourceTree = "<group>"; };
 		71110B4519DB4CE4009DD217 /* TemplateIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon2x.png; sourceTree = "<group>"; };
 		71110B4819DB4DF5009DD217 /* StationProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationProvider.swift; sourceTree = "<group>"; };
-		71110B4A19DB5156009DD217 /* FuelStation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuelStation.swift; sourceTree = "<group>"; };
+		71110B4C19DC8470009DD217 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		71110B4D19DC873D009DD217 /* FuelStation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuelStation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +95,8 @@
 				71110B4419DB4CE4009DD217 /* stations.json */,
 				71110B4519DB4CE4009DD217 /* TemplateIcon2x.png */,
 				71110B4819DB4DF5009DD217 /* StationProvider.swift */,
-				71110B4A19DB5156009DD217 /* FuelStation.swift */,
+				71110B4D19DC873D009DD217 /* FuelStation.swift */,
+				71110B4C19DC8470009DD217 /* MyPlayground.playground */,
 			);
 			path = "DATS Finder";
 			sourceTree = "<group>";
@@ -229,7 +231,7 @@
 			files = (
 				71110B2519DB3E5B009DD217 /* ViewController.swift in Sources */,
 				71110B4919DB4DF5009DD217 /* StationProvider.swift in Sources */,
-				71110B4B19DB5156009DD217 /* FuelStation.swift in Sources */,
+				71110B4E19DC873D009DD217 /* FuelStation.swift in Sources */,
 				71110B2319DB3E5B009DD217 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
