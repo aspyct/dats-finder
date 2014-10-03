@@ -17,6 +17,10 @@
 		71110B4719DB4CE4009DD217 /* TemplateIcon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71110B4519DB4CE4009DD217 /* TemplateIcon2x.png */; };
 		71110B4919DB4DF5009DD217 /* StationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71110B4819DB4DF5009DD217 /* StationProvider.swift */; };
 		71110B4E19DC873D009DD217 /* FuelStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71110B4D19DC873D009DD217 /* FuelStation.swift */; };
+		71110B5319DDDB61009DD217 /* KmlDocumentParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71110B5219DDDB61009DD217 /* KmlDocumentParser.swift */; };
+		71110B5519DDDBE5009DD217 /* KmlPlacemarkParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71110B5419DDDBE5009DD217 /* KmlPlacemarkParser.swift */; };
+		71110B5719DDDC55009DD217 /* KmlPlacemark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71110B5619DDDC55009DD217 /* KmlPlacemark.swift */; };
+		71110B5919DDDE57009DD217 /* KmlTextParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71110B5819DDDE57009DD217 /* KmlTextParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		71110B4819DB4DF5009DD217 /* StationProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationProvider.swift; sourceTree = "<group>"; };
 		71110B4C19DC8470009DD217 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		71110B4D19DC873D009DD217 /* FuelStation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuelStation.swift; sourceTree = "<group>"; };
+		71110B5219DDDB61009DD217 /* KmlDocumentParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KmlDocumentParser.swift; sourceTree = "<group>"; };
+		71110B5419DDDBE5009DD217 /* KmlPlacemarkParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KmlPlacemarkParser.swift; sourceTree = "<group>"; };
+		71110B5619DDDC55009DD217 /* KmlPlacemark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KmlPlacemark.swift; sourceTree = "<group>"; };
+		71110B5819DDDE57009DD217 /* KmlTextParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KmlTextParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,17 +94,18 @@
 		71110B1F19DB3E5B009DD217 /* DATS Finder */ = {
 			isa = PBXGroup;
 			children = (
+				71110B5119DDDB38009DD217 /* KmlParser */,
 				71110B2219DB3E5B009DD217 /* AppDelegate.swift */,
 				71110B2419DB3E5B009DD217 /* ViewController.swift */,
 				71110B2619DB3E5B009DD217 /* Main.storyboard */,
 				71110B2919DB3E5B009DD217 /* Images.xcassets */,
 				71110B2B19DB3E5B009DD217 /* LaunchScreen.xib */,
-				71110B2019DB3E5B009DD217 /* Supporting Files */,
 				71110B4419DB4CE4009DD217 /* stations.json */,
 				71110B4519DB4CE4009DD217 /* TemplateIcon2x.png */,
 				71110B4819DB4DF5009DD217 /* StationProvider.swift */,
 				71110B4D19DC873D009DD217 /* FuelStation.swift */,
 				71110B4C19DC8470009DD217 /* MyPlayground.playground */,
+				71110B2019DB3E5B009DD217 /* Supporting Files */,
 			);
 			path = "DATS Finder";
 			sourceTree = "<group>";
@@ -124,6 +133,17 @@
 				71110B3719DB3E5B009DD217 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71110B5119DDDB38009DD217 /* KmlParser */ = {
+			isa = PBXGroup;
+			children = (
+				71110B5219DDDB61009DD217 /* KmlDocumentParser.swift */,
+				71110B5419DDDBE5009DD217 /* KmlPlacemarkParser.swift */,
+				71110B5619DDDC55009DD217 /* KmlPlacemark.swift */,
+				71110B5819DDDE57009DD217 /* KmlTextParser.swift */,
+			);
+			path = KmlParser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +249,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71110B5719DDDC55009DD217 /* KmlPlacemark.swift in Sources */,
 				71110B2519DB3E5B009DD217 /* ViewController.swift in Sources */,
 				71110B4919DB4DF5009DD217 /* StationProvider.swift in Sources */,
+				71110B5519DDDBE5009DD217 /* KmlPlacemarkParser.swift in Sources */,
+				71110B5919DDDE57009DD217 /* KmlTextParser.swift in Sources */,
+				71110B5319DDDB61009DD217 /* KmlDocumentParser.swift in Sources */,
 				71110B4E19DC873D009DD217 /* FuelStation.swift in Sources */,
 				71110B2319DB3E5B009DD217 /* AppDelegate.swift in Sources */,
 			);
