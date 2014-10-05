@@ -20,7 +20,7 @@ class KmlTextParser : NSObject, NSXMLParserDelegate {
         foundString += string
     }
     
-    func parser(parser: NSXMLParser, didEndElement elementName: String, namespaceURI: String, qualifiedName qName: String) {
+    func parser(parser: NSXMLParser, didEndElement elementName: String, namespaceURI: String!, qualifiedName qName: String!) {
         onFinish(foundString)
     }
 }

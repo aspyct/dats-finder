@@ -38,3 +38,14 @@ let allFuelStations = map(names, { (let name: String) -> FuelStation in
     return station
 })
 
+var all: [String] = []
+var doAppend: () -> () = { () -> () in
+    all.append("hello")
+}
+    
+for i in 0...10 {
+    doAppend()
+}
+println(all)
+
+

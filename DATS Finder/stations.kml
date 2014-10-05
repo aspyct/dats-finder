@@ -1,0 +1,1741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<Style id="defaultContentLinkStyle">
+<IconStyle>
+<scale>1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Aalst</name>
+<address>41 Brusselsesteenweg, Aalst, Oost Vlaanderen 9300 BEL</address>
+<Point>
+<coordinates>4.057309,50.932506</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Alsemberg</name>
+<address>17 Brusselsesteenweg, Alsemberg, Vlaams Brabant 1652 BEL</address>
+<Point>
+<coordinates>4.336847,50.741564</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Amay</name>
+<address>247 Chaussée de Tongres, Amay, Liege 4540 BEL</address>
+<Point>
+<coordinates>5.306201,50.555965</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Anderlues</name>
+<address>2 Chaussée de Charleroi, Anderlues, Hainaut 6150 BEL</address>
+<Point>
+<coordinates>4.271542,50.405797</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Ans</name>
+<address>88-112 Rue des Français, Ans, Liege 4430 BEL</address>
+<Point>
+<coordinates>5.532478,50.658883</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Antwerpen CNG</name>
+<address>42 Vosseschijnstraat, Antwerpen, Antwerpen 2030 BEL</address>
+<Point>
+<coordinates>4.415409,51.249966</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Asse</name>
+<address>49 Nerviërsstraat, Asse, Vlaams Brabant 1730 BEL</address>
+<Point>
+<coordinates>4.187359,50.918366</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Ath</name>
+<address>116 Chaussée de Bruxelles, Ath, Hainaut 7800 BEL</address>
+<Point>
+<coordinates>3.788684,50.633962</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Avelgem</name>
+<address>272 Doorniksesteenweg, Avelgem, West Vlaanderen 8580 BEL</address>
+<Point>
+<coordinates>3.444313,50.771671</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Balen</name>
+<address>1 Schoor, Balen, Antwerpen 2490 BEL</address>
+<Point>
+<coordinates>5.17913,51.165055</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Beringen</name>
+<address>321 Koolmijnlaan, Beringen, Limburg 3580 BEL</address>
+<Point>
+<coordinates>5.222777,51.055625</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Beyne-Heusay</name>
+<address>246 Grand' Route, Beyne-Heusay, Liege 4610 BEL</address>
+<Point>
+<coordinates>5.652575,50.622828</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Blankenberge</name>
+<address>2 Ruiterstraat, Blankenberge, West Vlaanderen 8370 BEL</address>
+<Point>
+<coordinates>3.141624,51.304024</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Boncelles</name>
+<address>19 Route du Condroz, Boncelles, Liege 4100 BEL</address>
+<Point>
+<coordinates>5.550832,50.568318</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Boom</name>
+<address>1 Papensteenstraat, Boom, Antwerpen 2850 BEL</address>
+<Point>
+<coordinates>4.369272,51.094739</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Boutersem</name>
+<address>297 Leuvensesteenweg, Boutersem, Vlaams Brabant 3370 BEL</address>
+<Point>
+<coordinates>4.838016,50.839695</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Braine-l'Alleud</name>
+<address>469 Chaussée d'Alsemberg, Braine-l'Alleud, Brabant Wallon 1420 BEL</address>
+<Point>
+<coordinates>4.364129,50.697215</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Bree</name>
+<address>12 Regenboogstraat, Bree, Limburg 3960 BEL</address>
+<Point>
+<coordinates>5.604583,51.139395</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Courcelles</name>
+<address>78 Rue Baudouin 1er, Courcelles, Hainaut 6180 BEL</address>
+<Point>
+<coordinates>4.376657,50.457403</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Dassenveld</name>
+<address>1 Zinkstraat, Halle, Vlaams Brabant 1500 BEL</address>
+<Point>
+<coordinates>4.212366,50.727488</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Deinze</name>
+<address>208 Gentstraat, Deinze, Oost Vlaanderen 9800 BEL</address>
+<Point>
+<coordinates>3.536189,50.980192</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Denderleeuw</name>
+<address>28-30 Kasteelstraat, Denderleeuw, Oost Vlaanderen 9470 BEL</address>
+<Point>
+<coordinates>4.07962,50.873127</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Dendermonde</name>
+<address>352 Mechelsesteenweg, Dendermonde, Oost Vlaanderen 9200 BEL</address>
+<Point>
+<coordinates>4.134641,51.038279</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Diest</name>
+<address>72 Leuvensesteenweg, Diest, Vlaams Brabant 3290 BEL</address>
+<Point>
+<coordinates>5.045298,50.978496</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Dour</name>
+<address>104 Rue d'Elouges, Dour, Hainaut 7370 BEL</address>
+<Point>
+<coordinates>3.769844,50.396755</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Enghien</name>
+<address>132 Rue d'Hoves, Enghien, Hainaut 7850 BEL</address>
+<Point>
+<coordinates>4.032584,50.690677</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Eupen</name>
+<address>201 Herbesthaler strasse, Eupen, Liege 4700 BEL</address>
+<Point>
+<coordinates>6.019185,50.63741</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Evere</name>
+<address>42 Oud-Strijderslaan, Evere, Brussel 1140 BEL</address>
+<Point>
+<coordinates>4.413263,50.860589</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Geel</name>
+<address>87 Antwerpseweg, Geel, Antwerpen 2440 BEL</address>
+<Point>
+<coordinates>4.954062,51.144986</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Gent</name>
+<address>197 Drongensesteenweg, Gent 1, Oost Vlaanderen 9000 BEL</address>
+<Point>
+<coordinates>3.694189,51.056027</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Geraardsbergen</name>
+<address>373 Groteweg, Geraardsbergen, Oost Vlaanderen 9500 BEL</address>
+<Point>
+<coordinates>3.853942,50.757355</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Ghislenghien</name>
+<address>34 Rue du Parc Industriel, Ghislenghien, Hainaut 7822 BEL</address>
+<Point>
+<coordinates>3.872473,50.655584</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Gilly</name>
+<address>61 Chaussée de Charleroi, Gilly, Hainaut 6060 BEL</address>
+<Point>
+<coordinates>4.476929,50.422306</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Gosselies</name>
+<address>37 Rue Tahon, Gosselies, Hainaut 6041 BEL</address>
+<Point>
+<coordinates>4.436261,50.459353</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Grez-Doiceau</name>
+<address>202 Chaussée de Wavre, Grez-Doiceau, Brabant Wallon 1390 BEL</address>
+<Point>
+<coordinates>4.677129,50.743053</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Halle (Lembeek)</name>
+<address>505 Bergensesteenweg, Halle, Vlaams Brabant 1500 BEL</address>
+<Point>
+<coordinates>4.223889,50.719591</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Halle-Ring</name>
+<address>300 Edingensesteenweg, Halle, Vlaams Brabant 1500 BEL</address>
+<Point>
+<coordinates>4.219028,50.727274</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Harelbeke</name>
+<address>206 Kortrijksesteenweg, Harelbeke, West Vlaanderen 8530 BEL</address>
+<Point>
+<coordinates>3.29607,50.845872</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Hasselt</name>
+<address>70 Genkersteenweg, Hasselt, Limburg 3500 BEL</address>
+<Point>
+<coordinates>5.348541,50.943614</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Herstal</name>
+<address>17 Bld. Zénobe Gramme, Herstal, Liege 4040 BEL</address>
+<Point>
+<coordinates>5.632007,50.662273</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Herve</name>
+<address>37 Outre-Cour, Battice, Liege 4651 BEL</address>
+<Point>
+<coordinates>5.779298,50.638724</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Heverlee</name>
+<address>71 Groenveldstraat, Heverlee, Vlaams Brabant 3001 BEL</address>
+<Point>
+<coordinates>4.684369,50.871493</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Ben-Ahin (Huy)</name>
+<address>5 Chaussée de Dinant, Ben-Ahin, Liege 4500 BEL</address>
+<Point>
+<coordinates>5.216803,50.522772</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Izegem</name>
+<address>147 Krekelmotestraat, Izegem, West Vlaanderen 8870 BEL</address>
+<Point>
+<coordinates>3.197142,50.914984</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Jemeppe-s/Sambre</name>
+<address>39 Chaussée de Charleroi, Jemeppe-sur-Sambre, Namur 5190 BEL</address>
+<Point>
+<coordinates>4.643763,50.455942</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Kuurne</name>
+<address>184 Brugsesteenweg, Kuurne, West Vlaanderen 8520 BEL</address>
+<Point>
+<coordinates>3.270282,50.856955</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Lennik</name>
+<address>73 Kroonstraat, Lennik, Vlaams Brabant 1750 BEL</address>
+<Point>
+<coordinates>4.149689,50.806192</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Liège Grétry</name>
+<address>235 Rue Grétry, Liège, Liege 4020 BEL</address>
+<Point>
+<coordinates>5.586112,50.630397</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Lier</name>
+<address>346 Antwerpsesteenweg, Lier, Antwerpen 2500 BEL</address>
+<Point>
+<coordinates>4.540856,51.146263</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Lochristi</name>
+<address>44 Antwerpsesteenweg, Lochristi, Oost Vlaanderen 9080 BEL</address>
+<Point>
+<coordinates>3.816387,51.091356</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Lokeren</name>
+<address>24 Gentsesteenweg, Lokeren, Oost Vlaanderen 9160 BEL</address>
+<Point>
+<coordinates>3.967448,51.109933</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Loncin</name>
+<address>316 Rue Edouard Colson, Loncin, Liege 4431 BEL</address>
+<Point>
+<coordinates>5.490248,50.672197</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Lovendegem</name>
+<address>109 Grote Baan, Lovendegem, Oost Vlaanderen 9920 BEL</address>
+<Point>
+<coordinates>3.630659,51.102599</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Maasmechelen</name>
+<address>583 Rijksweg, Maasmechelen, Limburg 3630 BEL</address>
+<Point>
+<coordinates>5.692245,50.941102</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Maldegem</name>
+<address>2 Koning Leopoldlaan, Maldegem, Oost Vlaanderen 9990 BEL</address>
+<Point>
+<coordinates>3.451183,51.203647</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Marbais</name>
+<address>264 Chaussée de Namur, Marbais (Br.W.), Brabant Wallon 1495 BEL</address>
+<Point>
+<coordinates>4.545336,50.536876</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Marcinelle</name>
+<address>71 Av. E. Mascaux, Marcinelle, Hainaut 6001 BEL</address>
+<Point>
+<coordinates>4.439785,50.38127</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Mechelen</name>
+<address>351 Liersesteenweg, Mechelen, Antwerpen 2800 BEL</address>
+<Point>
+<coordinates>4.477573,51.044591</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Meerbeke</name>
+<address>341 Brusselsesteenweg, Meerbeke, Oost Vlaanderen 9402 BEL</address>
+<Point>
+<coordinates>4.046929,50.829316</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Melle</name>
+<address>36 Brusselsesteenweg, Melle, Oost Vlaanderen 9090 BEL</address>
+<Point>
+<coordinates>3.775572,51.022739</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Menen</name>
+<address>435 Ieperstraat, Menen, West Vlaanderen 8930 BEL</address>
+<Point>
+<coordinates>3.097814,50.803678</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Merksem</name>
+<address>111 Groenendaallaan, Merksem, Antwerpen 2170 BEL</address>
+<Point>
+<coordinates>4.433527,51.241973</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Middelkerke</name>
+<address>298 Oostendelaan, Middelkerke, West Vlaanderen 8430 BEL</address>
+<Point>
+<coordinates>2.841554,51.194252</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Moeskroen/Mouscron</name>
+<address>483 Rue de Menin, Mouscron, Hainaut 7700 BEL</address>
+<Point>
+<coordinates>3.200557,50.755434</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Mons</name>
+<address>121 Chaussée de Binche, Mons, Hainaut 7000 BEL</address>
+<Point>
+<coordinates>3.976294,50.452245</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Namur SA</name>
+<address>153 B Chaussée de Charleroi, Namur, Namur 5000 BEL</address>
+<Point>
+<coordinates>4.834932,50.450385</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Ninove</name>
+<address>158 Albertlaan, Ninove, Oost Vlaanderen 9400 BEL</address>
+<Point>
+<coordinates>4.013467,50.838892</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Nivelles</name>
+<address>178 Chaussée de Bruxelles, Nivelles, Brabant Wallon 1400 BEL</address>
+<Point>
+<coordinates>4.336738,50.610545</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Nossegem</name>
+<address>11 Voskapellelaan, Nossegem, Vlaams Brabant 1930 BEL</address>
+<Point>
+<coordinates>4.511515,50.87822</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Overijse</name>
+<address>361 Brusselsesteenweg, Overijse, Vlaams Brabant 3090 BEL</address>
+<Point>
+<coordinates>4.506766,50.78349</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Péruwelz</name>
+<address>131 Rue Neuve Chaussée, Péruwelz, Hainaut 7600 BEL</address>
+<Point>
+<coordinates>3.600864,50.522407</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Rebecq</name>
+<address>27 A Chaussée de Mons, Rebecq, Brabant Wallon 1430 BEL</address>
+<Point>
+<coordinates>4.165966,50.657629</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Rochefort</name>
+<address>52 Rue de Dinant, Rochefort, Namur 5580 BEL</address>
+<Point>
+<coordinates>5.207815,50.167153</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Roeselare</name>
+<address>32 Noordlaan, Roeselare, West Vlaanderen 8800 BEL</address>
+<Point>
+<coordinates>3.119396,50.956036</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Namur (Salzinnes)</name>
+<address>16 Chaussée de Charleroi, Namur, Namur 5000 BEL</address>
+<Point>
+<coordinates>4.844216,50.463053</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Seraing</name>
+<address>61 Rue Puits-Marie, Seraing, Liege 4100 BEL</address>
+<Point>
+<coordinates>5.516258,50.607758</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Ukkel/Uccle</name>
+<address>153 Rue de Stalle, Ukkel, Bruxelles 1180 BEL</address>
+<Point>
+<coordinates>4.322874,50.796273</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Woluwe</name>
+<address>146 Vervloesemstraat, Sint-Lambrechts-Woluwe, Bruxelles 1200 BEL</address>
+<Point>
+<coordinates>4.430175,50.847252</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Halle (Stroppen)</name>
+<address>2 Bilkensveld, Halle, Vlaams Brabant 1500 BEL</address>
+<Point>
+<coordinates>4.250994,50.75156</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Sint-Truiden</name>
+<address>266 Tiensesteenweg, Sint-Truiden, Limburg 3800 BEL</address>
+<Point>
+<coordinates>5.153207,50.812936</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Temse</name>
+<address>19 Vrijheidstraat, Temse, Oost Vlaanderen 9140 BEL</address>
+<Point>
+<coordinates>4.218967,51.128594</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Thuin</name>
+<address>113 Drève des Alliés, Thuin, Hainaut 6530 BEL</address>
+<Point>
+<coordinates>4.311549,50.339293</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Tielt</name>
+<address>45 Pittemsesteenweg, Tielt, West Vlaanderen 8700 BEL</address>
+<Point>
+<coordinates>3.306941,50.996872</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Tongeren</name>
+<address>447 Maastrichtersteenweg, Tongeren, Limburg 3700 BEL</address>
+<Point>
+<coordinates>5.515612,50.790425</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Torhout</name>
+<address>168 Bruggestraat, Torhout, West Vlaanderen 8820 BEL</address>
+<Point>
+<coordinates>3.116295,51.082557</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Tournai</name>
+<address>154 Chaussée de Bruxelles, Tournai, Hainaut 7500 BEL</address>
+<Point>
+<coordinates>3.411503,50.604806</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Anderlecht</name>
+<address>824 Bergensesteenweg, Anderlecht, Brussel 1070 BEL</address>
+<Point>
+<coordinates>4.302352,50.827982</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Wavre</name>
+<address>45 Avenue des Princes, Wavre, Brabant Wallon 1300 BEL</address>
+<Point>
+<coordinates>4.615506,50.717038</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Westmalle</name>
+<address>148 Antwerpsesteenweg, Westmalle, Antwerpen 2390 BEL</address>
+<Point>
+<coordinates>4.703708,51.297873</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Wetteren</name>
+<address>252 Brusselsesteenweg, Wetteren, West Vlaanderen 9230 BEL</address>
+<Point>
+<coordinates>3.844426,50.984542</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Wevelgem</name>
+<address>226 Kortrijkstraat, Wevelgem, West Vlaanderen 8560 BEL</address>
+<Point>
+<coordinates>3.19559,50.812445</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Wezemaal</name>
+<address>139 Aarschotsesteenweg, Wezemaal, Vlaams Brabant 3111 BEL</address>
+<Point>
+<coordinates>4.749251,50.946237</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Destelbergen</name>
+<address>694 Dendermondesteenweg, Destelbergen, Oost Vlaanderen 9070 BEL</address>
+<Point>
+<coordinates>3.824915,51.059734</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Kampenhout</name>
+<address>55 Mechelsesteenweg, Kampenhout, Vlaams Brabant 1910 BEL</address>
+<Point>
+<coordinates>4.588221,50.958658</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Roeselare Mandel</name>
+<address>202 Beversesteenweg, Roeselare, West Vlaanderen 8800 BEL</address>
+<Point>
+<coordinates>3.13157,50.958443</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Kontich</name>
+<address>6 Koningin Astridlaan, Kontich, Antwerpen 2550 BEL</address>
+<Point>
+<coordinates>4.452089,51.126264</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Zaventem</name>
+<address>500 Leuvensesteenweg, Zaventem, Vlaams Brabant 1930 BEL</address>
+<Point>
+<coordinates>4.476852,50.871919</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 St-Ghislain</name>
+<address>81 Rue Du Sas, St - Ghislain, Hainaut 7330 BEL</address>
+<Point>
+<coordinates>3.811441,50.450576</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Schoten</name>
+<address>84 Brechtsebaan, Schoten, Antwerpen 2900 BEL</address>
+<Point>
+<coordinates>4.512754,51.266786</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Sint-Katelijne-Waver</name>
+<address>87 Putsesteenweg, Sint-Katelijne-Waver, 2860 BEL</address>
+<Point>
+<coordinates>4.51365,51.034742</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="taCategory1">
+<value>7311</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Brecht</name>
+<address>68 Veldstraat, Brecht, Antwerpen 2960 BEL</address>
+<Point>
+<coordinates>4.641263,51.356112</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+<Data name="ExternalIdentifier">
+<value>5411</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<styleUrl>#defaultContentLinkStyle</styleUrl>
+<name>DATS 24 Frameries</name>
+<address>76 Rue Josephe Dufrane, Frameries, Hainaut 7080 BEL</address>
+<Point>
+<coordinates>3.888432,50.407885</coordinates>
+</Point>
+<ExtendedData>
+<Data name="Category1">
+<displayName>&lt;b&gt;Category 1&lt;/b&gt;</displayName>
+<value>Automotive: Petrol Station</value>
+</Data>
+</ExtendedData>
+</Placemark>
+</Document>
+</kml>

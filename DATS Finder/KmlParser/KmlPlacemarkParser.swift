@@ -20,19 +20,31 @@ class KmlPlacemarkParser : NSObject, NSXMLParserDelegate {
         self.onFinish = onFinish
     }
     
-    func parser(parser: NSXMLParser, didStartElement elementName: String, namespaceURI: String, qualifiedName qName: String, attributes attributeDict: [NSObject : AnyObject]) {
+    func parser(parser: NSXMLParser, didStartElement elementName: String, namespaceURI: String!, qualifiedName qName: String!, attributes attributeDict: [NSObject : AnyObject]) {
         if elementName == "name" {
             currentSubparser = KmlTextParser({ (name) -> () in
                 self.kmlPlacemark.name = name
+                
+                parser.delegate = self
+            })
+            
+            parser.delegate = currentSubparser
+        }
+        else if elementName == "Point" {
+            currentSubparser = KmlPointParser({ (longitude, latitude) -> () in
+                self.kmlPlacemark.longitude = longitude
+                self.kmlPlacemark.latitude = latitude
+                
+                parser.delegate = self
             })
             
             parser.delegate = currentSubparser
         }
     }
     
-    func parser(parser: NSXMLParser, didEndElement elementName: String, namespaceURI: String, qualifiedName qName: String) {
+    func parser(parser: NSXMLParser, didEndElement elementName: String, namespaceURI: String!, qualifiedName qName: String!) {
         if elementName == "Placemark" {
-            onFinish(kmlPlacemark)
+            self.onFinish(kmlPlacemark)
         }
     }
 }

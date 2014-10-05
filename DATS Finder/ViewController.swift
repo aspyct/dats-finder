@@ -20,13 +20,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        for station in stationProvider.listAllStations() {
-            println(station)
-            
+        stationProvider.listAllStations { (station) -> () in
             let pin = MKPointAnnotation()
+            
             pin.coordinate = CLLocationCoordinate2D(latitude: station.latitude, longitude: station.longitude)
             pin.title = station.name
-            mapView.addAnnotation(pin)
+            
+            self.mapView.addAnnotation(pin)
         }
     }
     

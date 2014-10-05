@@ -8,31 +8,31 @@
 
 import Foundation
 
-class StationProvider {
-    func listAllStations() -> Array<FuelStation> {
-        if let fileUrl = NSBundle.mainBundle().URLForResource("stations", withExtension: "json") {
-            let data = NSData.dataWithContentsOfURL(fileUrl, options: nil, error: nil) as NSData
-            let jsonArray = NSJSONSerialization.JSONObjectWithData(data, options: nil, error: nil) as [[String: AnyObject]]
-            
-            let allFuelStations = map(jsonArray, { (let jsonObject : [String: AnyObject]) -> FuelStation in
-                var fuelStation = FuelStation()
+class StationProvider : NSObject, NSXMLParserDelegate {
+    var documentParser: KmlDocumentParser? = nil
+    var parser: NSXMLParser? = nil
+    
+    func listAllStations(onStation: (FuelStation) -> ()) {
+        if let fileUrl = NSBundle.mainBundle().URLForResource("stations", withExtension: "kml") {
+            var allStations: [KmlPlacemark] = []
+            let parser = NSXMLParser(contentsOfURL: fileUrl)
+            self.parser = parser
+            self.documentParser = KmlDocumentParser(onPlacemark: { (placemark) -> () in
+                let station = FuelStation()
                 
-                if let name: AnyObject = jsonObject["name"] {
-                    if let stringName = name as? String {
-                        fuelStation.name = stringName
-                    }
-                }
+                station.name = placemark.name
+                station.longitude = placemark.longitude
+                station.latitude = placemark.latitude
                 
-                fuelStation.longitude = (jsonObject["longitude"] as NSNumber).doubleValue
-                fuelStation.latitude = (jsonObject["latitude"] as NSNumber).doubleValue
-
-                return fuelStation
+                onStation(station)
             })
             
-            return allFuelStations
+            parser.delegate = self.documentParser
+            parser.parse()
         }
-        else {
-            return []
-        }
+    }
+    
+    func parser(parser: NSXMLParser, didStartElement elementName: String, namespaceURI: String!, qualifiedName qName: String!, attributes attributeDict: [NSObject : AnyObject]) {
+        println(elementName)
     }
 }
