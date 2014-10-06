@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -19,105 +20,92 @@
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GpI-FK-gJ2">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </mapView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N0V-7m-OOl" userLabel="Switch fuel type">
-                                <rect key="frame" x="520" y="550" width="64" height="30"/>
-                                <state key="normal" title="Fuel type">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vpl-mO-H9f" userLabel="Fuel type box">
-                                <rect key="frame" x="160" y="336" width="280" height="164"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MsH-yW-rt2">
-                                        <rect key="frame" x="8" y="60" width="128" height="44"/>
-                                        <color key="backgroundColor" red="0.20901067710298679" green="0.77902088994565211" blue="0.30355706144212463" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="44" id="34l-1p-Cdp"/>
-                                            <constraint firstAttribute="width" constant="128" id="SS8-o8-j2P"/>
-                                        </constraints>
-                                        <state key="normal" title="SP98">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hQq-It-QhS">
-                                        <rect key="frame" x="8" y="112" width="128" height="44"/>
-                                        <color key="backgroundColor" red="0.90132472826086962" green="0.82554334037993216" blue="0.17863725906394926" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="128" id="SvH-LR-KB7"/>
-                                        </constraints>
-                                        <state key="normal" title="Diesel">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9SD-fd-S1j">
-                                        <rect key="frame" x="144" y="112" width="128" height="44"/>
-                                        <color key="backgroundColor" red="0.259781322556907" green="0.76471456697147044" blue="0.90132472826086962" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="128" id="xSg-9H-Owk"/>
-                                        </constraints>
-                                        <state key="normal" title="CNG">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4tC-7J-bR4">
-                                        <rect key="frame" x="8" y="8" width="264" height="44"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="44" id="ie0-Rq-USb"/>
-                                        </constraints>
-                                        <state key="normal" title="All stations">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6xC-GA-9a1">
-                                        <rect key="frame" x="144" y="60" width="128" height="44"/>
-                                        <color key="backgroundColor" red="0.20901067709999999" green="0.77902088989999996" blue="0.30355706139999999" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="44" id="dbJ-Yv-wMe"/>
-                                            <constraint firstAttribute="width" constant="128" id="fNS-LR-6Rg"/>
-                                        </constraints>
-                                        <state key="normal" title="SP95">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="6xC-GA-9a1" secondAttribute="trailing" constant="8" id="BWR-26-b1X"/>
-                                    <constraint firstItem="hQq-It-QhS" firstAttribute="leading" secondItem="vpl-mO-H9f" secondAttribute="leading" constant="8" id="L6l-5m-mwD"/>
-                                    <constraint firstAttribute="trailing" secondItem="9SD-fd-S1j" secondAttribute="trailing" constant="8" id="NNz-K7-Uyh"/>
-                                    <constraint firstItem="9SD-fd-S1j" firstAttribute="top" secondItem="6xC-GA-9a1" secondAttribute="bottom" constant="8" id="OYK-na-LuT"/>
-                                    <constraint firstAttribute="bottom" secondItem="9SD-fd-S1j" secondAttribute="bottom" constant="8" id="Sfp-8g-lft"/>
-                                    <constraint firstItem="MsH-yW-rt2" firstAttribute="leading" secondItem="vpl-mO-H9f" secondAttribute="leading" constant="8" id="U9A-s9-X46"/>
-                                    <constraint firstItem="6xC-GA-9a1" firstAttribute="top" secondItem="4tC-7J-bR4" secondAttribute="bottom" constant="8" id="eMy-0O-Lea"/>
-                                    <constraint firstAttribute="bottom" secondItem="hQq-It-QhS" secondAttribute="bottom" constant="8" id="fF6-Nv-78Y"/>
-                                    <constraint firstItem="4tC-7J-bR4" firstAttribute="leading" secondItem="vpl-mO-H9f" secondAttribute="leading" constant="8" id="gpi-nn-d2m"/>
-                                    <constraint firstItem="hQq-It-QhS" firstAttribute="top" secondItem="MsH-yW-rt2" secondAttribute="bottom" constant="8" id="kbP-ha-uvC"/>
-                                    <constraint firstAttribute="trailing" secondItem="4tC-7J-bR4" secondAttribute="trailing" constant="8" id="lq3-7b-fLW"/>
-                                    <constraint firstItem="4tC-7J-bR4" firstAttribute="top" secondItem="vpl-mO-H9f" secondAttribute="top" constant="8" id="n08-GC-S4a"/>
-                                    <constraint firstAttribute="width" constant="280" id="n6b-Qi-0qQ"/>
-                                    <constraint firstItem="MsH-yW-rt2" firstAttribute="top" secondItem="4tC-7J-bR4" secondAttribute="bottom" constant="8" id="n7y-g6-mIz"/>
-                                    <constraint firstAttribute="height" constant="164" id="vOs-vz-t5e"/>
-                                </constraints>
-                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="GpI-FK-gJ2" secondAttribute="bottom" id="0aF-qI-MVG"/>
                             <constraint firstItem="GpI-FK-gJ2" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="EPE-7B-w4b"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="vpl-mO-H9f" secondAttribute="bottom" constant="100" id="Irn-VE-gGA"/>
                             <constraint firstAttribute="trailing" secondItem="GpI-FK-gJ2" secondAttribute="trailing" id="J3H-pv-WYA"/>
-                            <constraint firstAttribute="centerX" secondItem="vpl-mO-H9f" secondAttribute="centerX" id="Ubt-mh-98H"/>
                             <constraint firstItem="GpI-FK-gJ2" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="l2O-nW-AOU"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="fuelTypeBox" destination="vpl-mO-H9f" id="2wn-uc-5fZ"/>
                         <outlet property="mapView" destination="GpI-FK-gJ2" id="STM-6E-6bA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--Disclaimer View Controller-->
+        <scene sceneID="G9R-uX-c9I">
+            <objects>
+                <viewController storyboardIdentifier="disclaimer" id="UDg-dK-1Vs" customClass="DisclaimerViewController" customModule="DATS_Finder" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XnE-6h-COF"/>
+                        <viewControllerLayoutGuide type="bottom" id="9wk-Zd-flH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="egg-Ol-GBL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is not an official app." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IET-eo-hjb">
+                                <rect key="frame" x="16" y="28" width="568" height="29"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQ7-L2-PeC">
+                                <rect key="frame" x="187" y="550" width="227" height="30"/>
+                                <inset key="contentEdgeInsets" minX="5" minY="5" maxX="5" maxY="5"/>
+                                <state key="normal" title="I understand, take me to the fuel!">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doUnderstand:" destination="UDg-dK-1Vs" eventType="touchUpInside" id="LxW-HS-Zaz"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iEc-YC-bRP">
+                                <rect key="frame" x="0.0" y="77" width="600" height="453"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Hi, and thank you for installing DATS finder.
+
+I just wanted to make clear that this is not an official app from DATS 24. I'm a customer just like you, and wanted to find fuel around Belgium. As such, the information displayed in this app may or may not be accurate.
+
+DATS 24 and Colruyt Group shall not be held liable for flaws in this app, and retain all copyrights on their respective brands.
+
+I hope you find this app as useful as I do. You can always click the "feedback" button at the bottom right of the map to contact me.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9wk-Zd-flH" firstAttribute="top" secondItem="ZQ7-L2-PeC" secondAttribute="bottom" constant="20" id="HWH-zw-lil"/>
+                            <constraint firstAttribute="trailing" secondItem="iEc-YC-bRP" secondAttribute="trailing" id="McO-oc-nCa"/>
+                            <constraint firstItem="IET-eo-hjb" firstAttribute="leading" secondItem="egg-Ol-GBL" secondAttribute="leadingMargin" id="PKQ-IB-ZYo"/>
+                            <constraint firstItem="IET-eo-hjb" firstAttribute="trailing" secondItem="egg-Ol-GBL" secondAttribute="trailingMargin" id="QDt-MA-Dey"/>
+                            <constraint firstItem="iEc-YC-bRP" firstAttribute="trailing" secondItem="egg-Ol-GBL" secondAttribute="trailingMargin" id="WbK-uh-h2m"/>
+                            <constraint firstItem="iEc-YC-bRP" firstAttribute="leading" secondItem="egg-Ol-GBL" secondAttribute="leadingMargin" id="XiC-PQ-F4r"/>
+                            <constraint firstItem="iEc-YC-bRP" firstAttribute="leading" secondItem="egg-Ol-GBL" secondAttribute="leading" id="anU-Yw-UNw"/>
+                            <constraint firstItem="iEc-YC-bRP" firstAttribute="top" secondItem="IET-eo-hjb" secondAttribute="bottom" constant="20" id="jgK-6k-3NB"/>
+                            <constraint firstAttribute="centerX" secondItem="ZQ7-L2-PeC" secondAttribute="centerX" id="tGO-xS-CjY"/>
+                            <constraint firstItem="IET-eo-hjb" firstAttribute="top" secondItem="XnE-6h-COF" secondAttribute="bottom" constant="8" id="vmx-I0-bMH"/>
+                            <constraint firstItem="ZQ7-L2-PeC" firstAttribute="top" secondItem="iEc-YC-bRP" secondAttribute="bottom" constant="20" id="wTE-0X-82H"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="WbK-uh-h2m"/>
+                                <exclude reference="XiC-PQ-F4r"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="understandButton" destination="ZQ7-L2-PeC" id="ijt-jX-14Y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dDG-gi-1Tx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="835" y="136"/>
         </scene>
     </scenes>
 </document>

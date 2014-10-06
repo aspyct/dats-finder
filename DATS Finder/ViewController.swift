@@ -12,7 +12,6 @@ import MapKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var mapView: MKMapView!
-    @IBOutlet weak var fuelTypeBox: UIView!
     
     let locationManager = CLLocationManager()
     let stationProvider = StationProvider()
@@ -30,16 +29,16 @@ class ViewController: UIViewController {
         }
     }
     
-    override func viewWillAppear(animated: Bool) {
-        super.viewWillAppear(animated)
-        
-        fuelTypeBox.hidden = true
-    }
-    
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         
-        locationManager.requestWhenInUseAuthorization()
+        if (NSUserDefaults.standardUserDefaults().boolForKey("understood")) {
+            locationManager.requestWhenInUseAuthorization()
+        }
+        else {
+            let disclaimer = self.storyboard!.instantiateViewControllerWithIdentifier("disclaimer") as UIViewController
+            self.presentViewController(disclaimer, animated: false, completion: nil)
+        }
     }
 }
 
