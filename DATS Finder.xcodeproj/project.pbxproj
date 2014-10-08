@@ -23,6 +23,7 @@
 		71110B5B19E1DD67009DD217 /* stations.kml in Resources */ = {isa = PBXBuildFile; fileRef = 71110B5A19E1DD67009DD217 /* stations.kml */; };
 		71110B5D19E1EAC8009DD217 /* KmlPointParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71110B5C19E1EAC8009DD217 /* KmlPointParser.swift */; };
 		715D3D4819E3375C009B2B1A /* DisclaimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715D3D4719E3375C009B2B1A /* DisclaimerViewController.swift */; };
+		715D3D4F19E5C860009B2B1A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 715D3D5119E5C860009B2B1A /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,13 @@
 		71110B5A19E1DD67009DD217 /* stations.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stations.kml; sourceTree = "<group>"; };
 		71110B5C19E1EAC8009DD217 /* KmlPointParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KmlPointParser.swift; sourceTree = "<group>"; };
 		715D3D4719E3375C009B2B1A /* DisclaimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisclaimerViewController.swift; sourceTree = "<group>"; };
+		715D3D4919E5C508009B2B1A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		715D3D4A19E5C508009B2B1A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		715D3D4B19E5C51D009B2B1A /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Main.strings; sourceTree = "<group>"; };
+		715D3D4C19E5C51D009B2B1A /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		715D3D5019E5C860009B2B1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		715D3D5219E5C89C009B2B1A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		715D3D5319E5C89D009B2B1A /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +119,7 @@
 				71110B5A19E1DD67009DD217 /* stations.kml */,
 				71110B4C19DC8470009DD217 /* MyPlayground.playground */,
 				71110B2019DB3E5B009DD217 /* Supporting Files */,
+				715D3D5119E5C860009B2B1A /* Localizable.strings */,
 			);
 			path = "DATS Finder";
 			sourceTree = "<group>";
@@ -216,6 +225,8 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
+				nl,
 			);
 			mainGroup = 71110B1419DB3E5B009DD217;
 			productRefGroup = 71110B1E19DB3E5B009DD217 /* Products */;
@@ -234,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71110B4719DB4CE4009DD217 /* TemplateIcon2x.png in Resources */,
+				715D3D4F19E5C860009B2B1A /* Localizable.strings in Resources */,
 				71110B2819DB3E5B009DD217 /* Main.storyboard in Resources */,
 				71110B2D19DB3E5B009DD217 /* LaunchScreen.xib in Resources */,
 				71110B2A19DB3E5B009DD217 /* Images.xcassets in Resources */,
@@ -291,6 +303,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				71110B2719DB3E5B009DD217 /* Base */,
+				715D3D4919E5C508009B2B1A /* fr */,
+				715D3D4B19E5C51D009B2B1A /* nl */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -299,8 +313,20 @@
 			isa = PBXVariantGroup;
 			children = (
 				71110B2C19DB3E5B009DD217 /* Base */,
+				715D3D4A19E5C508009B2B1A /* fr */,
+				715D3D4C19E5C51D009B2B1A /* nl */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		715D3D5119E5C860009B2B1A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				715D3D5019E5C860009B2B1A /* Base */,
+				715D3D5219E5C89C009B2B1A /* fr */,
+				715D3D5319E5C89D009B2B1A /* nl */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

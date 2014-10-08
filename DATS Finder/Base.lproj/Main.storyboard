@@ -54,9 +54,9 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQ7-L2-PeC">
-                                <rect key="frame" x="187" y="550" width="227" height="30"/>
-                                <inset key="contentEdgeInsets" minX="5" minY="5" maxX="5" maxY="5"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQ7-L2-PeC">
+                                <rect key="frame" x="177" y="542" width="247" height="38"/>
+                                <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
                                 <state key="normal" title="I understand, take me to the fuel!">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -64,17 +64,19 @@
                                     <action selector="doUnderstand:" destination="UDg-dK-1Vs" eventType="touchUpInside" id="LxW-HS-Zaz"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iEc-YC-bRP">
-                                <rect key="frame" x="0.0" y="77" width="600" height="453"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iEc-YC-bRP">
+                                <rect key="frame" x="0.0" y="77" width="600" height="445"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <mutableString key="text">Hi, and thank you for installing DATS finder.
 
-I just wanted to make clear that this is not an official app from DATS 24. I'm a customer just like you, and wanted to find fuel around Belgium. As such, the information displayed in this app may or may not be accurate.
+I just wanted to make clear that this is not an official app from DATS 24. I'm a customer just like you, and wanted to find fuel around Belgium.
 
 DATS 24 and Colruyt Group shall not be held liable for flaws in this app, and retain all copyrights on their respective brands.
 
-I hope you find this app as useful as I do. You can always click the "feedback" button at the bottom right of the map to contact me.</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+I hope you find this app as useful as I do. As one would say: "If you like it, tell people about it. If you don't, please don't tell anyone ;)"
+
+Reviews and suggestions on the app store are always appreciated.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -100,6 +102,7 @@ I hope you find this app as useful as I do. You can always click the "feedback" 
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="disclaimerText" destination="iEc-YC-bRP" id="l9O-Rs-cWz"/>
                         <outlet property="understandButton" destination="ZQ7-L2-PeC" id="ijt-jX-14Y"/>
                     </connections>
                 </viewController>

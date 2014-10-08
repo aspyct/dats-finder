@@ -1,0 +1,6 @@
+
+/* Class = "IBUILabel"; text = "This is not an official app."; ObjectID = "IET-eo-hjb"; */
+"IET-eo-hjb.text" = "App non officielle.";
+
+/* Class = "IBUIButton"; normalTitle = "I understand, take me to the fuel!"; ObjectID = "ZQ7-L2-PeC"; */
+"ZQ7-L2-PeC.normalTitle" = "Compris, montrez-moi les pompes!";
