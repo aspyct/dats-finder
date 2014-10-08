@@ -67,7 +67,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iEc-YC-bRP">
                                 <rect key="frame" x="0.0" y="77" width="600" height="445"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Hi, and thank you for installing DATS finder.
+                                <string key="text">Hi, and thank you for installing DATS finder.
 
 I just wanted to make clear that this is not an official app from DATS 24. I'm a customer just like you, and wanted to find fuel around Belgium.
 
@@ -75,7 +75,7 @@ DATS 24 and Colruyt Group shall not be held liable for flaws in this app, and re
 
 I hope you find this app as useful as I do. As one would say: "If you like it, tell people about it. If you don't, please don't tell anyone ;)"
 
-Reviews and suggestions on the app store are always appreciated.</mutableString>
+Reviews and suggestions on the app store are always appreciated.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
