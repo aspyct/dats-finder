@@ -1,0 +1,8 @@
+/* 
+  Localizable.strings
+  DATS Finder
+
+  Created by Antoine d'Otreppe on 08/10/14.
+  Copyright (c) 2014 Aspyct.org. All rights reserved.
+*/
+"disclaimer" = "Salut, et merci d'avoir installé DATS finder.\n\nCette application n'est pas l'officielle de DATS 24. Je suis un client comme vous, et je souhaite trouver aisément des pompes partout en Belgique.\n\nDATS 24 et Colruyt Group ne peuvent en aucun cas être tenus pour responsables d'une erreur trouvée dans cette application, et ils gardent l'entière propriété de leurs marques respectives.\n\nJ'espère que vous trouverez cette application aussi utile que moi. Et comme dirait l'autre: \"Si vous aimez, parlez-en. Et si vous n'aimez pas, surtout ne dites rien ;)\"\n\nLes avis et suggestions sont les bienvenues dans l'app store.";
