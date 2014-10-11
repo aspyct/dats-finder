@@ -29,6 +29,14 @@ class ViewController: UIViewController {
         }
     }
     
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        let brussels = CLLocationCoordinate2DMake(50.8500, 4.3500)
+        let belgiumSpan = MKCoordinateSpanMake(5, 5)
+        self.mapView.region = MKCoordinateRegionMake(brussels, belgiumSpan)
+    }
+    
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         
