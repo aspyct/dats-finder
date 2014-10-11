@@ -24,6 +24,7 @@
 		71110B5D19E1EAC8009DD217 /* KmlPointParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71110B5C19E1EAC8009DD217 /* KmlPointParser.swift */; };
 		715D3D4819E3375C009B2B1A /* DisclaimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715D3D4719E3375C009B2B1A /* DisclaimerViewController.swift */; };
 		715D3D4F19E5C860009B2B1A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 715D3D5119E5C860009B2B1A /* Localizable.strings */; };
+		718554D019E93D5800563744 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 718554CE19E93D5800563744 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		71110B1D19DB3E5B009DD217 /* DATS Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DATS Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		71110B2119DB3E5B009DD217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71110B2119DB3E5B009DD217 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71110B2219DB3E5B009DD217 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71110B2419DB3E5B009DD217 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		71110B2719DB3E5B009DD217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -57,6 +58,7 @@
 		71110B5819DDDE57009DD217 /* KmlTextParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KmlTextParser.swift; sourceTree = "<group>"; };
 		71110B5A19E1DD67009DD217 /* stations.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stations.kml; sourceTree = "<group>"; };
 		71110B5C19E1EAC8009DD217 /* KmlPointParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KmlPointParser.swift; sourceTree = "<group>"; };
+		713A097119E93FAB00E857E9 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		715D3D4719E3375C009B2B1A /* DisclaimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisclaimerViewController.swift; sourceTree = "<group>"; };
 		715D3D4919E5C508009B2B1A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
 		715D3D4A19E5C508009B2B1A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 		715D3D5019E5C860009B2B1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		715D3D5219E5C89C009B2B1A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		715D3D5319E5C89D009B2B1A /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		718554CF19E93D5800563744 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				71110B2119DB3E5B009DD217 /* Info.plist */,
+				718554CE19E93D5800563744 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -245,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71110B4719DB4CE4009DD217 /* TemplateIcon2x.png in Resources */,
+				718554D019E93D5800563744 /* InfoPlist.strings in Resources */,
 				715D3D4F19E5C860009B2B1A /* Localizable.strings in Resources */,
 				71110B2819DB3E5B009DD217 /* Main.storyboard in Resources */,
 				71110B2D19DB3E5B009DD217 /* LaunchScreen.xib in Resources */,
@@ -327,6 +332,15 @@
 				715D3D5319E5C89D009B2B1A /* nl */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		718554CE19E93D5800563744 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				718554CF19E93D5800563744 /* fr */,
+				713A097119E93FAB00E857E9 /* nl */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
