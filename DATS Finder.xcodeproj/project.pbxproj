@@ -22,6 +22,7 @@
 		71110B5919DDDE57009DD217 /* KmlTextParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71110B5819DDDE57009DD217 /* KmlTextParser.swift */; };
 		71110B5B19E1DD67009DD217 /* stations.kml in Resources */ = {isa = PBXBuildFile; fileRef = 71110B5A19E1DD67009DD217 /* stations.kml */; };
 		71110B5D19E1EAC8009DD217 /* KmlPointParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71110B5C19E1EAC8009DD217 /* KmlPointParser.swift */; };
+		713A097519E9597700E857E9 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713A097419E9597700E857E9 /* Crashlytics.framework */; };
 		715D3D4819E3375C009B2B1A /* DisclaimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715D3D4719E3375C009B2B1A /* DisclaimerViewController.swift */; };
 		715D3D4F19E5C860009B2B1A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 715D3D5119E5C860009B2B1A /* Localizable.strings */; };
 		718554D019E93D5800563744 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 718554CE19E93D5800563744 /* InfoPlist.strings */; };
@@ -59,6 +60,7 @@
 		71110B5A19E1DD67009DD217 /* stations.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stations.kml; sourceTree = "<group>"; };
 		71110B5C19E1EAC8009DD217 /* KmlPointParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KmlPointParser.swift; sourceTree = "<group>"; };
 		713A097119E93FAB00E857E9 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		713A097419E9597700E857E9 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		715D3D4719E3375C009B2B1A /* DisclaimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisclaimerViewController.swift; sourceTree = "<group>"; };
 		715D3D4919E5C508009B2B1A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
 		715D3D4A19E5C508009B2B1A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				713A097519E9597700E857E9 /* Crashlytics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +97,7 @@
 				71110B1F19DB3E5B009DD217 /* DATS Finder */,
 				71110B3519DB3E5B009DD217 /* DATS FinderTests */,
 				71110B1E19DB3E5B009DD217 /* Products */,
+				713A097419E9597700E857E9 /* Crashlytics.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -175,6 +179,7 @@
 				71110B1919DB3E5B009DD217 /* Sources */,
 				71110B1A19DB3E5B009DD217 /* Frameworks */,
 				71110B1B19DB3E5B009DD217 /* Resources */,
+				713A097319E9594D00E857E9 /* Crashlytics */,
 			);
 			buildRules = (
 			);
@@ -266,6 +271,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		713A097319E9594D00E857E9 /* Crashlytics */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Crashlytics;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Crashlytics.framework/run e3b9e08e11c7aa9a130ac43821a35478d0eab64a 0cffffe03312666596f85b075067d9a6e0bfe545a30aada5644c19255711b0d6";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		71110B1919DB3E5B009DD217 /* Sources */ = {
@@ -429,6 +451,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "DATS Finder/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -443,6 +469,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "DATS Finder/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
